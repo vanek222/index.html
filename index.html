@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8e1; /* світло-жовтий фон */
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #ff6f61; /* кораловий колір заголовка */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            color: #fff; /* білий текст */
+        }
+
+        .donuts {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .donut {
+            background-color: #ffe0b2; /* світло-оранжевий фон карток */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .donut img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .donut h2 {
+            color: #d84315; /* темно-оранжевий текст */
+        }
+
+        .donut p {
+            color: #5d4037; /* темно-коричневий текст */
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #5d4037; /* темно-коричневий текст футера */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Світ пончиків</h1>
+        <p>Найсмачніші пончики в місті!</p>
+    </header>
+
+    <section class="donuts">
+        <div class="donut">
+            <img src="/uploads/2023/02/donut.png" alt="Пончик з шоколадом">
+            <h2>Пончик з шоколадом</h2>
+            <p>Смачний пончик з шоколадною глазур'ю.</p>
+        </div>
+        <div class="donut">
+            <img src="/uploads/2023/02/donut.png" alt="Пончик з ваніллю">
+            <h2>Пончик з ваніллю</h2>
+            <p>Пухкий пончик з ванільною начинкою.</p>
+        </div>
+        <div class="donut">
+            <img src="/uploads/2023/02/donut.png" alt="Карамельний пончик">
+            <h2>Карамельний пончик</h2>
+            <p>Пончик з ніжною карамельною начинкою.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Магазин Пончиків в Ужгороді. Всі права захищені.</p>
+    </footer>
+
+</body>
+</html>
